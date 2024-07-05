@@ -32,7 +32,7 @@ const TaskAddingForm = () => {
       status,
       deadline
     };
-    fetch("http://localhost:3000/tasks", {
+    fetch("http://localhost:5000/api/task", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
